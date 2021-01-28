@@ -1,3 +1,3 @@
-a, b = map(int, input().split())
-print(a + b)
-print(a - b)
+a, b = map(int, input('Введите два числа через пробел').split())
+print('Сумма чисел:', a + b)
+print('Разность чисел:', a - b)
